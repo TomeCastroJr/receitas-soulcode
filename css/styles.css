@@ -1,0 +1,241 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    /* Paleta definida */
+    --cor0: #CAC400; /* Header e Footer */
+    --cor1: #F1EB35; /*  */
+    --cor2: #FFFA6C; /*  */
+    --cor3: #FFFCA9; /* Body */
+    --cor4: #FFFFF0; /* Hover */
+}
+
+body {
+    background: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 110px;
+}
+
+section {
+    margin: 0px 30px;
+}
+
+/* Estilos gerais */
+.btn {
+    background-color: var(--cor3);
+    border: 1px solid var(--cor0);
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.header {
+    background-color: var(--cor0);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    padding: 0px 30px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    padding: 15px 0px;
+    width: 200px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer img {
+    width: 180px;
+
+}
+
+/* Estilos Header */
+.navbar ul {
+    display: flex;
+    gap: 16px;
+}
+
+.btn-saibamais {
+    padding: 7px 10px;
+}
+
+
+
+.btn-categorias {
+    padding: 8px 10px;
+}
+
+.navbar ul a {
+    color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.destaques {
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.banner div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner img {
+    border-radius: 8px;
+}
+
+.banner h3 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.banner p {
+    text-align: justify;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.banner a {
+    text-decoration: none;
+}
+
+.categorias {
+    border: 1px solid black;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.categorias img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.categorias h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 15px 0px;
+}
+
+.categorias h3 {
+    font-weight: 700;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.categorias p {
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.categorias div {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.dicas {
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.newsletter input {
+    border: 1px solid var(--cor1);
+    height: 35px;
+    font-size: 16px;
+    width: 70%;
+}
+
+.newsletter {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.newsletter h2 {
+    padding-top: 12px;
+}
+
+.footer {
+    border-top: 2px solid var(--cor2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background-color: var(--cor0);
+    width: 100%;
+    padding: 16px 0px;
+}
+
+.copy {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.copy nav ul {
+    display: flex;
+    gap: 12px;
+}
+
+.copy li a {
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: var(--cor3);
+}
+
+.btn-newsletter {
+    border-radius: 0 10px 10px 0;
+    height: 35px;
+    width: 28%;
+}
