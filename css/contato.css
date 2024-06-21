@@ -1,0 +1,59 @@
+html{
+    font-size: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    width: 70vw;
+    margin: 0 auto;
+}
+.form{
+    width: 70%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px black;
+    display: flex;
+    flex-direction: column;
+}
+.form legend{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 15px 0;
+}
+.form div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.form div label{
+    font-size: 1.5rem;
+}
+
+.form div input{
+    height: 35px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+.form div input::placeholder{
+    padding: 20px;
+}
+
+.form div textarea{
+    border-radius: 20px;
+    resize: none;
+    padding: 20px;
+}
+
+.form button{
+    align-self: center;
+    margin-top: 10px;
+    padding: 10px 15px;
+}
+
+@media (min-width:768px){
+    .form div input{
+        height: 45px;
+    }
+}
